@@ -52,7 +52,7 @@ DEFAULT_USER=ppentama
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git bundler osx rake ruby history mvn tmux web-search wd)
+plugins=(git bundler osx rake ruby history mvn tmux web-search wd z.sh)
 
 # User configuration
 
@@ -63,7 +63,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Pawan added these
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/z.sh
+#source ~/z.sh
 
 export ZPLUG_HOME=/usr/local/opt/zplug
 source $ZPLUG_HOME/init.zsh
